@@ -1,4 +1,4 @@
-package com.itechno.ecs.controller;
+package com.sujay.ecs.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.itechno.ecs.dao.DoctorDao;
-import com.itechno.ecs.entity.Doctor;
-import com.itechno.ecs.exception.AdminNotFoundException;
+import com.sujay.ecs.dao.DoctorDao;
+import com.sujay.ecs.entity.Doctor;
+import com.sujay.ecs.exception.AdminNotFoundException;
 
 @RestController
 public class DoctorController {

@@ -1,6 +1,6 @@
-package com.itechno.ecs.dao;
+package com.sujay.ecs.dao;
 
-import com.itechno.ecs.entity.Admin;
+import com.sujay.ecs.entity.Admin;
 
 public interface AdminDao {
 

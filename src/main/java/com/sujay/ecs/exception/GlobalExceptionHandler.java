@@ -1,4 +1,4 @@
-package com.itechno.ecs.exception;
+package com.sujay.ecs.exception;
 
 import java.util.Date;
 import java.util.HashMap;

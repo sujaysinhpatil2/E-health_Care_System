@@ -1,4 +1,4 @@
-package com.itechno.ecs;
+package com.sujay.ecs;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
@@ -24,8 +24,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.itechno.ecs.dao.AdminDao;
-import com.itechno.ecs.entity.Admin;
+import com.sujay.ecs.dao.AdminDao;
+import com.sujay.ecs.entity.Admin;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)

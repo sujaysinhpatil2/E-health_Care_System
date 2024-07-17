@@ -1,4 +1,4 @@
-package com.itechno.ecs.exception;
+package com.sujay.ecs.exception;
 
 public class AdminNotFoundException extends RuntimeException {
 	

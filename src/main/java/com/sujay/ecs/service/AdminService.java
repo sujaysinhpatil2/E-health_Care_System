@@ -1,8 +1,8 @@
-package com.itechno.ecs.service;
+package com.sujay.ecs.service;
 
 import java.util.List;
 
-import com.itechno.ecs.entity.Admin;
+import com.sujay.ecs.entity.Admin;
 
 public interface AdminService {
 	

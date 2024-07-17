@@ -1,4 +1,4 @@
-package com.itechno.ecs.dao;
+package com.sujay.ecs.dao;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -9,7 +9,8 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import com.itechno.ecs.entity.Admin;
+
+import com.sujay.ecs.entity.Admin;
 
 @Repository
 public class AdminDaoImpl implements AdminDao {

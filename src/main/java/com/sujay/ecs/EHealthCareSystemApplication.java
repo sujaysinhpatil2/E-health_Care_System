@@ -1,4 +1,4 @@
-package com.itechno.ecs;
+package com.sujay.ecs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

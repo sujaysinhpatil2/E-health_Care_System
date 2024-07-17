@@ -1,9 +1,9 @@
-package com.itechno.ecs.dao;
+package com.sujay.ecs.dao;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.itechno.ecs.entity.Doctor;
+import com.sujay.ecs.entity.Doctor;
 
 public interface DoctorDao {
 	

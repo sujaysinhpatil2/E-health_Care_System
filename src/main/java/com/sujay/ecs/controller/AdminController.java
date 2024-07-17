@@ -1,4 +1,4 @@
-package com.itechno.ecs.controller;
+package com.sujay.ecs.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.itechno.ecs.entity.Admin;
-import com.itechno.ecs.exception.AdminNotFoundException;
-import com.itechno.ecs.service.AdminService;
+import com.sujay.ecs.entity.Admin;
+import com.sujay.ecs.exception.AdminNotFoundException;
+import com.sujay.ecs.service.AdminService;
 
 @RestController
 public class AdminController {
