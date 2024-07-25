@@ -1,4 +1,4 @@
-package com.sujay.ecs.service;
+package com.sujay.ecs.AdiminService.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,9 +7,9 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sujay.ecs.dao.AdminDao;
-import com.sujay.ecs.entity.Admin;
-import com.sujay.ecs.repository.AdminRepository;
+import com.sujay.ecs.AdiminService.dao.AdminDao;
+import com.sujay.ecs.AdiminService.entity.Admin;
+import com.sujay.ecs.AdiminService.repository.AdminRepository;
 
 @Service
 public class AdminServiceImpl implements AdminService {

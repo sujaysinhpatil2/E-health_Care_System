@@ -1,4 +1,4 @@
-package com.sujay.ecs.exception;
+package com.sujay.ecs.AdiminService.exception;
 
 public class AdminNotFoundException extends RuntimeException {
 	

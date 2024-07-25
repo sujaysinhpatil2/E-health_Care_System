@@ -1,4 +1,4 @@
-package com.sujay.ecs.exception;
+package com.sujay.ecs.AdiminService.exception;
 
 import java.util.Date;
 import java.util.HashMap;

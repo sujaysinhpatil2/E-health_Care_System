@@ -1,6 +1,6 @@
-package com.sujay.ecs.dao;
+package com.sujay.ecs.AdiminService.dao;
 
-import com.sujay.ecs.entity.Admin;
+import com.sujay.ecs.AdiminService.entity.Admin;
 
 public interface AdminDao {
 

@@ -1,4 +1,4 @@
-package com.sujay.ecs.entity;
+package com.sujay.ecs.AdiminService.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

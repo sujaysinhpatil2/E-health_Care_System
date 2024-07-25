@@ -1,4 +1,4 @@
-package com.sujay.ecs.controller;
+package com.sujay.ecs.AdiminService.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sujay.ecs.entity.Admin;
-import com.sujay.ecs.exception.AdminNotFoundException;
-import com.sujay.ecs.service.AdminService;
+import com.sujay.ecs.AdiminService.entity.Admin;
+import com.sujay.ecs.AdiminService.exception.AdminNotFoundException;
+import com.sujay.ecs.AdiminService.service.AdminService;
 
 @RestController
 public class AdminController {

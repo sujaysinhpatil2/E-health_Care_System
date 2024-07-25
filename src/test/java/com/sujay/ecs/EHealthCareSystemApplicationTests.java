@@ -24,8 +24,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.sujay.ecs.dao.AdminDao;
-import com.sujay.ecs.entity.Admin;
+import com.sujay.ecs.AdiminService.dao.AdminDao;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)

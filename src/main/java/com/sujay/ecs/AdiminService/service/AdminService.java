@@ -1,8 +1,8 @@
-package com.sujay.ecs.service;
+package com.sujay.ecs.AdiminService.service;
 
 import java.util.List;
 
-import com.sujay.ecs.entity.Admin;
+import com.sujay.ecs.AdiminService.entity.Admin;
 
 public interface AdminService {
 	

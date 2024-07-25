@@ -1,9 +1,9 @@
-package com.sujay.ecs.dao;
+package com.sujay.ecs.AdiminService.dao;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.sujay.ecs.entity.Doctor;
+import com.sujay.ecs.AdiminService.entity.Doctor;
 
 public interface DoctorDao {
 	

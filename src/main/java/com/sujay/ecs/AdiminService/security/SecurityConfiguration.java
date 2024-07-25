@@ -1,4 +1,4 @@
-package com.sujay.ecs.security;
+package com.sujay.ecs.AdiminService.security;
 //package com.sujay.ecs.security;
 //
 //import org.springframework.beans.factory.annotation.Autowired;
