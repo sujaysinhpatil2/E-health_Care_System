@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: APIGateway
+  cloud:
+    gateway:
+      routes:
+        - id: USERSERVICE
+          uri: lb://USERSERVICE
+          predicates:
+            - Path=/user/**
+        - id: ADMINSERVICE
+          uri: lb://ADMINSERVICE
+          predicates:
+            - Path=/admin/**
+    discovery:
+      locator:
+        enabled: true
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG

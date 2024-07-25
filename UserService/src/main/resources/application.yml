@@ -1,0 +1,28 @@
+resilience4j.circuitbreaker:
+  instances:
+    userService:
+      registerHealthIndicator: true
+      slidingWindowSize: 100
+      minimumNumberOfCalls: 10
+      failureRateThreshold: 50
+      waitDurationInOpenState: 5000
+      permittedNumberOfCallsInHalfOpenState: 3
+      slidingWindowType: COUNT_BASED
+      automaticTransitionFromOpenToHalfOpenEnabled: true
+
+resilience4j.bulkhead:
+  instances:
+    userService:
+      maxConcurrentCalls: 10
+      maxWaitDuration: 0
+
+resilience4j.timelimiter:
+  instances:
+    userService:
+      timeoutDuration: 2s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
